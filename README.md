@@ -16,7 +16,7 @@ iconfont是来自 [hexo-theme-nexmoe](https://github.com/nexmoe/hexo-theme-nexmo
 
 然后将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sarakale/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lucas-ty/live2d-widget@latest/autoload.js"></script>
 ```
 
 一般在主题的"layout/_layout.swig"中修改，我是使用了[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)这个主题，所以要在 `butterfly/layout/includes/layout.pug` 文件的`body`末尾加入，注意空格缩进：
