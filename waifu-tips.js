@@ -4,8 +4,13 @@
  */
 
 function loadWidget(config) {
-	let { waifuPath, apiPath, cdnPath } = config;
-	let useCDN = false, modelList;
+	let {
+		waifuPath,
+		apiPath,
+		cdnPath
+	} = config;
+	let useCDN = false,
+		modelList;
 	if (typeof cdnPath === "string") {
 		useCDN = true;
 		if (!cdnPath.endsWith("/")) cdnPath += "/";
@@ -89,7 +94,7 @@ function loadWidget(config) {
 				document.getElementById("waifu-toggle").classList.add("waifu-toggle-active");
 			}, 3000);
 		});
-		let devtools = () => { };
+		let devtools = () => {};
 		console.log("%c", devtools);
 		devtools.toString = () => {
 			showMessage("哈哈，你打开了控制台，是想要看看我的小秘密吗？", 6000, 9);
@@ -163,8 +168,8 @@ function loadWidget(config) {
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (modelId === null) {
 			// 首次访问加载指定模型和指定材质，请打开浏览器按F12看控制台输出报告
-			modelId = 6; // 模型 ID
-			modelTexturesId = 14; // 材质 ID
+			modelId = 4; // 模型 ID
+			modelTexturesId = 82; // 材质 ID
 		}
 		loadModel(modelId, modelTexturesId);
 		fetch(waifuPath)
