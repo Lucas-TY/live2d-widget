@@ -289,14 +289,14 @@
 			]
 		},
 		{
-			"selector": ".tag-cloud a']",
+			"selector": ".tag-cloud ",
 			"text": [
 				"要去看看 <span>{text}</span> 标签么？",
 				"点它可以查看此标签下的所有文章哟！"
 			]
 		},
 		{
-			"selector": ".category-list-link']",
+			"selector": ".category-list-link",
 			"text": [
 				"要去看看 <span>{text}</span> 分类么？",
 				"点它可以查看此分类下的所有文章哟！"
@@ -309,7 +309,7 @@
 			]
 		},
 		{
-			"selector": ".fa-comment']",
+			"selector": ".fa-comment",
 			"text": [
 				"要去看看评论吗？"
 			]
@@ -446,7 +446,7 @@
 			]
 		},
 		{
-			"selector": ".next-post .pull_right']",
+			"selector": ".next-post .pull_right",
 			"text": [
 				"来看看下一篇文章吧。",
 				"点它可以看下一篇文章哦！",
@@ -454,7 +454,7 @@
 			]
 		},
 		{
-			"selector": ".prev-post .pull_left']",
+			"selector": ".prev-post .pull_left",
 			"text": [
 				"来看看上一篇文章吧。",
 				"点它可以看上一篇文章哦！",
